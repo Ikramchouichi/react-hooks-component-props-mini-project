@@ -1,14 +1,13 @@
-function Header ({ name }){
+// src/components/Header.js
+function Header({ name }) {
     return (
-   <header>
+      <header>
+        <h1>{name}</h1>
+      </header>
+    );
+  }
+  
+  export default Header;
+  
 
-    <h1> { name } </h1>
-
-
-   </header>
-   
-    )
-
-}
-
-export  default Header;
+  
